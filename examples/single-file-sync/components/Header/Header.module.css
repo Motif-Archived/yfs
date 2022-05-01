@@ -1,0 +1,27 @@
+.cta {
+  display: inline-block;
+  color: white;
+  background-color: var(--button-dark);
+  outline: 0 !important;
+  outline-offset: 2px;
+  box-shadow: none;
+  font-weight: 500;
+  font-size: var(--font-size-base);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-appearance: button;
+  border-style: solid;
+  border-width: 0;
+  transition-duration: 150ms;
+}
+
+.cta:hover {
+  opacity: 0.9;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.warning {
+  color: var(--text-warning);
+  text-align: center;
+}

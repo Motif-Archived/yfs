@@ -1,0 +1,91 @@
+/* Selection */
+
+.ySelection-0 {
+  background-color: var(--orange-light);
+}
+.ySelection-1 {
+  background-color: var(--green-light);
+}
+.ySelection-2 {
+  background-color: var(--sky-light);
+}
+.ySelection-3 {
+  background-color: var(--violet-light);
+}
+.ySelection-4 {
+  background-color: var(--rose-light);
+}
+.ySelection-5 {
+  background-color: var(--amber-light);
+}
+.ySelection-6 {
+  background-color: var(--lime-light);
+}
+.ySelection-7 {
+  background-color: var(--fuchsia-light);
+}
+
+/* Background */
+
+.yBackground-0 {
+  background-color: var(--orange);
+}
+.yBackground-1 {
+  background-color: var(--green);
+}
+.yBackground-2 {
+  background-color: var(--sky);
+}
+.yBackground-3 {
+  background-color: var(--violet);
+}
+.yBackground-4 {
+  background-color: var(--rose);
+}
+.yBackground-5 {
+  background-color: var(--amber);
+}
+.yBackground-6 {
+  background-color: var(--lime);
+}
+.yBackground-7 {
+  background-color: var(--fuchsia);
+}
+
+/* Border */
+
+.yBorder-0 {
+  border-color: var(--orange);
+}
+.yBorder-1 {
+  border-color: var(--green);
+}
+.yBorder-2 {
+  border-color: var(--sky);
+}
+.yBorder-3 {
+  border-color: var(--violet);
+}
+.yBorder-4 {
+  border-color: var(--rose);
+}
+.yBorder-5 {
+  border-color: var(--amber);
+}
+.yBorder-6 {
+  border-color: var(--lime);
+}
+.yBorder-7 {
+  border-color: var(--fuchsia);
+}
+
+/* Selection head */
+
+.ySelectionHead {
+  position: absolute;
+  box-sizing: border-box;
+  height: 100%;
+  border-left-width: 2px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}

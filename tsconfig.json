@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "strict": true,
+    "target": "ES2020"
+  },
+  "include": ["./src"]
+}

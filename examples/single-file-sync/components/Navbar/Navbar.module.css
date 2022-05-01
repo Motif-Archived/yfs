@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.nav div:first-child {
+  flex: 1;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.nav div:first-child h1,
+.nav div:first-child p {
+  margin: 0;
+}
+
+.nav div:first-child h1 {
+  font-size: 18px;
+  color: var(--text-dark);
+}
+
+.nav div:first-child p {
+  font-size: var(--font-size-sm);
+  color: var(--text-light);
+}
+
+.nav div:last-child {
+  display: flex;
+  gap: 25px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav div:last-child a {
+  font-size: var(--font-size-sm);
+  color: var(--text-dark);
+}

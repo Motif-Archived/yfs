@@ -1,0 +1,47 @@
+.container {
+  min-height: 100vh;
+  padding: 2rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-dark);
+}
+
+.container {
+  padding: 0;
+}
+
+.subtleLink {
+  text-decoration: underline dotted var(--text-extralight);
+  cursor: pointer;
+}
+
+.subtleLink:hover {
+  opacity: 0.9;
+}
+
+.main {
+  position: relative;
+  padding: 0 1.5rem 2rem 1.5rem;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editorContainer {
+  width: 100%;
+  height: 100vh;
+  max-height: 480px;
+  padding: 0 1rem;
+  border-radius: 5px;
+  border-width: 1px;
+  overflow: hidden;
+  background-color: white;
+  border-color: var(--border-light);
+  border-style: solid;
+}
