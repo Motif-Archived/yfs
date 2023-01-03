@@ -4,6 +4,9 @@ Synchronize text files between the browser and the file system using the
 [File System Access API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API)
 and [Yjs](https://yjs.dev/).
 
+
+Blog post explaining the underlying concepts: [Syncing text files between browser and disk using Yjs and the File System Access API](https://motif.land/blog/syncing-text-files-using-yjs-and-the-file-system-access-api).
+
 <br />
 <p align="center">
   <a aria-label="NPM version" href="https://www.npmjs.com/package/@yfs/react">
