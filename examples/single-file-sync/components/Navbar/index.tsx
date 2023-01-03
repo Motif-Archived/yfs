@@ -31,7 +31,7 @@ export default function Navbar () {
       </div>
       <div>
         <a
-          href='https://motif.land/blog/filesystem-access-api'
+          href='https://motif.land/blog/syncing-text-files-using-yjs-and-the-file-system-access-api'
           target='_blank'
           rel='noreferrer'
         >
