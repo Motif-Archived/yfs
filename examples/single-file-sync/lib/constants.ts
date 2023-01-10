@@ -5,7 +5,5 @@ export const ROOM_ID = 'yfs-sample-room'
 export const TEST_FILE_NAME = 'yfs-test.md'
 
 export const WEBRTC_SIGNALING_SERVERS = [
-  'wss://signaling.yjs.dev',
-  'wss://y-webrtc-signaling-us.herokuapp.com',
-  'wss://y-webrtc-signaling-eu.herokuapp.com',
+  'wss://motif-signaling.fly.dev/',
 ]
